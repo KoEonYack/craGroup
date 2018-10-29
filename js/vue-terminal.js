@@ -28,7 +28,7 @@ let vueTerminal = new Vue({
                     $ ls
                     $ cat`,
             "clear": "exec clear",
-            "ls": "announce.txt skills.txt cat.txt \n",
+            "ls": "announce.txt fish.txt cat.txt \n",
             "cat": "Specify the file you want to open... \n",
             "cat announce.txt": `\n 내일은 씨밀레 밥고입니다. 
            \n장소 : 학관 \n시간 : 늦은 5:30\n
@@ -48,23 +48,14 @@ let vueTerminal = new Vue({
 ﾞ（ﾟ､ ｡ ７
 　 l、ﾞ ~ヽ
 　 じしf_, )ノ
+\n 고양이는 귀엽다.
 `,
-            "cat skills.txt": `
-Frontend:
-    JS/html/css ★★★★
-    Angular     ★★★
-    Vue         ★★★
-Backend:
-    Java        ★★★★
-    Spring      ★★
-    Node.js     ★★★★
-A bit of both:
-    TypeScript  ★★★
-A bit of everything else:
-    Bash/Sh     ★★★★
-    Docker      ★★★★
-      -compose  ★★★
-    Blockchain  ★★★
+            "cat fish.txt": `
+     <><물고기가 아닌 익투스 ΙΧΘΥΣ라고 읽는다.)\n
+     Ιησους　Χριστος　Θεου　Υιος　Σωτηρ 이에수스 크리스토스 테우 휘오스 소테르,이이소이스 크리스토스 테오이 이이오스 소티르
+     \n
+     '하나님의 아들 구원자(구세주) 예수 그리스도' 또는 '주님은 저의 그리스도, 하나님의 아들(마16:16)'
+
 `
         }
     },
