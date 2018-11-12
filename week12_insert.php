@@ -4,7 +4,7 @@
     $nickname = $_POST['nickname'];
     $message = $_POST['message'];
 
-    $sql = "INSERT INTO board_list VALUES({$nickname},{$message});";
+    $sql = "INSERT INTO board_list (name, message) VALUES({$nickname},{$message});";
     mysqli_query($conn,$sql);
 
 ?>
